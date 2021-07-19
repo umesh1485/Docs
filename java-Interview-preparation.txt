@@ -1,0 +1,28 @@
+Java Preparation Cource with Jdk 1.8
+
+
+
+***Core Java***
+1. Differences between JDK, JRE and JVM?
+https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
+
+2. Memory Model of JVM 1.8?
+https://howtodoinjava.com/java/garbage-collection/java-memory-model/
+
+3. What is JVM Garbage collection?
+Ans.   Java garbage collection is the process by which Java programs perform automatic memory management. Java programs compile to bytecode that can be run 
+on a Java Virtual Machine, or JVM for short. When Java programs run on the JVM, objects are created on the heap, which is a portion of memory dedicated to the program. 
+Eventually, some objects will no longer be needed. The garbage collector finds these unused objects and deletes them to free up memory.
+
+4. Any 3 types of Garbage Collection and How to set it?
+Ans.   1.Serial Garbage Collector
+       2.Parallel Garbage Collector
+	   3. CMS Garbage Collector
+	We can set it by running it through command prompt by this commnd java '-XX:+<name of GC> -jar Application.java' like for parllel command 
+	would be 'java -XX:+UseParallelGC -jar Application.java'
+	refer here for details -> https://www.baeldung.com/jvm-garbage-collectors
+	
+5.  JDK, JRE and JVM out of these 3 which is OS(platform) dependent and Independent.
+6.  What is bytecode in java? which cmd command generates the bytecode?
+7.  What is difference in 'javac' and 'java'
+ 
