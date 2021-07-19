@@ -24,5 +24,21 @@ Ans.   1.Serial Garbage Collector
 	
 5.  JDK, JRE and JVM out of these 3 which is OS(platform) dependent and Independent.
 6.  What is bytecode in java? which cmd command generates the bytecode?
-7.  What is difference in 'javac' and 'java'
- 
+7.  What is difference in 'javac' and 'java' command?
+8.  What are the 4 four pillars of OOPs?  -> https://info.keylimeinteractive.com/the-four-pillars-of-object-oriented-programming
+9.  Code Example of Encapsulation ?
+     class Example{
+		 String name; 
+		 int age
+		 public String getAge(){
+			return age;
+		 }
+	 }
+10. Code Example of Abstraction?
+		Example ex = new Example();
+		abstraction --> ex.getName()
+11. Types of Polymorphism?
+12. What is different in dynamic method dispatch how can it be achieved.
+13. How many methods with same name we can define in a class?
+14. What is method signature ?
+15. 
