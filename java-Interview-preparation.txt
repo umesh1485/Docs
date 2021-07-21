@@ -38,7 +38,21 @@ Ans.   1.Serial Garbage Collector
 		Example ex = new Example();
 		abstraction --> ex.getName()
 11. Types of Polymorphism?
-12. What is different in dynamic method dispatch how can it be achieved.
+12. What is difference in dynamic method dispatch and method overriding how can it be achieved?
 13. How many methods with same name we can define in a class?
-14. What is method signature ?
-15. 
+14. What is method signature ? 
+15. Can we override an overloaded method?
+16. Can we override variables?
+17. Does java support operator overloading?
+18. Is access modifier and  return type is part of method signature?
+19. Can we change access modifier and  return type in method overloding?
+20. Can we change access modifier and  return type in method overriding? If yes then what are the rules?
+21. What are the access modifiers in java and how they can be applied on method, variables and classes?
+22. Can we have private or protected class in Java?
+23. How many Java classes we can define in Single java file?
+24. Difference in .java and .class extention?
+25. How to generate and run .class files, create an example?
+26. Can we override a protected method by changing its modifier to private?
+27. Can we override a protected method by changing its modifier to public?
+28. What is default access modifier?
+29. What is 
