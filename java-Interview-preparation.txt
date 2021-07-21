@@ -55,4 +55,22 @@ Ans.   1.Serial Garbage Collector
 26. Can we override a protected method by changing its modifier to private?
 27. Can we override a protected method by changing its modifier to public?
 28. What is default access modifier?
-29. What is 
+29. What is constructor in a java class?
+30. What is default constructor ?
+31. Difference in method and contructor?
+32. What is role constructor in inheritance?
+33. What is constructor chaining?
+34. Is below Main class will compile successfully?
+	class Example{
+		 private Example();
+	 }
+	 
+	 class ChildExample extends Example{
+		
+	 }
+	 
+	 class Main{
+		pulic static void main(String args[]){
+			ChildExample ce = new ChildExample();
+		}
+	 }
