@@ -190,5 +190,44 @@ Ans.   1.Serial Garbage Collector
 			ChildExample ce = new ChildExample();
 		}
 	 }
+45. What is static keyword? can it be applied on classes?
+46. Difference in static and instance method and variables?
+47. Can we override a Static method?
+48. What will be result?
+	class Example{	 
+		 static void m1(){
+			 System.out.println("static method Example.m1() called");
+		 }
+	}
+	class ChildExample extends Example{	
+	}
 
-	 
+	class Main{
+		public static void main(String args[]){
+			ChildExample ce = new ChildExample();
+			ce.m1();
+		}
+	}
+	
+49. What will be result?
+	class Example{	 
+		 static void m1(){
+			 System.out.println("static method Example.m1() called");
+		 }
+	}
+	class ChildExample extends Example{	
+		static void m1(){
+			 System.out.println("static method ChildExample.m1() called");
+		 }
+	}
+
+	class Main{
+		public static void main(String args[]){
+			ChildExample ce = new ChildExample();
+			ce.m1();
+		}
+	}
+	a. why its output is different than question no. 48
+	
+50. Is java pass by value and pass by reference, What is Java, value or refernce?
+51. Difference in aggregation, composition and cohesion? Try to Create a proble for each and understand?
