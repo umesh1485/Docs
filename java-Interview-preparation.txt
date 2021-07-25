@@ -1,7 +1,6 @@
 Java Preparation Cource with Jdk 1.8
 
 
-
 ***Core Java***
 1. Differences between JDK, JRE and JVM?
 https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
@@ -60,9 +59,59 @@ Ans.   1.Serial Garbage Collector
 31. Difference in method and contructor?
 32. What is role constructor in inheritance?
 33. What is constructor chaining?
-34. Is below Main class will compile successfully?
+34. Will below Main class  compile successfully?
 	class Example{
-		 private Example();
+		private Example(){}
+	}
+	class ChildExample extends Example{
+		
+	}
+	class Main{
+		public static void main(String args[]){
+			ChildExample ce = new ChildExample();
+		}
+	}
+	 a. If there any issue, please explain
+	 b. If there any issue, how to make it compilable
+	 
+35.  Will below Main class  compile successfully?
+     class Example{
+		private Example(){}
+	}
+
+	class Main{
+		public static void main(String args[]){
+			Example e = new Example();
+		}
+	}
+36. How many constructors we can provide in a class? What is the rule?
+37. What value will be printed of intAge and integerAge?
+    class Main{
+		int intAge;
+		Integer integerAge;
+		
+		public static void main(String args[]){
+			Main m = new Main();
+			System.out.println(m.intAge+"    "+m.integerAge);
+		}
+	 }
+	  
+	 a. explain what is diff in both variables and their values?
+	 b. Who assigned these values to intAge and integerAge?
+	 c. what this call does 'new Main();'?
+	 d. will this compile?
+	 class Main{
+		public static void main(String args[]){
+			int intAge;
+			Integer integerAge;
+			System.out.println(intAge+"    "+integerAge);
+		}
+	 }
+	 If Not, what is the error why it not occured in above program because in both places we have not initilized
+	 
+38. Will below code compile?
+    class Example{
+		 public Example(String name){}
 	 }
 	 
 	 class ChildExample extends Example{
@@ -70,7 +119,31 @@ Ans.   1.Serial Garbage Collector
 	 }
 	 
 	 class Main{
-		pulic static void main(String args[]){
+		public static void main(String args[]){
 			ChildExample ce = new ChildExample();
 		}
 	 }
+	 
+	 a. If Not, Explain the reason
+	 b. Make above code compilable, you can only modify ChildExample class only
+	 c. Why is below code compiling successfully as compare to above
+	 
+	 class Example{
+		 public Example(){}
+	 }
+	 
+	 class ChildExample extends Example{
+		
+	 }
+	 
+	 class Main{
+		public static void main(String args[]){
+			ChildExample ce = new ChildExample();
+		}
+	 }
+39. What is super and this keywords in java?
+40. Can we call the super class onstructor with super keyword, if yes WAP for example.
+41. Is multiple Inheritance is possible in java? Understand the reason?
+42. 
+
+	 
