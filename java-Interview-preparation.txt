@@ -1,7 +1,7 @@
 Java Preparation Cource with Jdk 1.8
 
 
-***Core Java***
+***Core Java***OOPS concepts
 1. Differences between JDK, JRE and JVM?
 https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
 
@@ -58,7 +58,7 @@ Ans.   1.Serial Garbage Collector
 30. What is default constructor ?
 31. Difference in method and contructor?
 32. What is role constructor in inheritance?
-33. What is constructor chaining?
+33. What is constructor chaining? WAP for example.
 34. Will below Main class  compile successfully?
 	class Example{
 		private Example(){}
@@ -144,6 +144,51 @@ Ans.   1.Serial Garbage Collector
 39. What is super and this keywords in java?
 40. Can we call the super class onstructor with super keyword, if yes WAP for example.
 41. Is multiple Inheritance is possible in java? Understand the reason?
-42. 
+42. How Many access modifiers we have in java?
+43. What will be printed?
+	class Example{
+		 public Example(){
+			System.out.println("Example is invoked");
+		}
+	 }
+	 
+	 class ChildExample extends Example{
+		public ChildExample(){
+			System.out.println("ChildExample is invoked");
+		}
+		
+	 }
+	 
+	 class SubChildExample extends Example{
+		public SubChildExample(){
+			System.out.println("SubChildExample is invoked");
+		}
+	 }
+	 
+	 class Main{
+		public static void main(String args[]){
+			SubChildExample ce = new SubChildExample();
+		}
+	 }
+44. Will code compile?
+    class Example{
+		 public Example(String name){
+			System.out.println("Example is invoked");
+		}
+	 }
+	 
+	 class ChildExample extends Example{
+		public ChildExample(){
+			super("java");
+			System.out.println("ChildExample is invoked");
+		}
+		
+	 }
+	 
+	 class Main{
+		public static void main(String args[]){
+			ChildExample ce = new ChildExample();
+		}
+	 }
 
 	 
