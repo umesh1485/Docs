@@ -231,3 +231,4 @@ Ans.   1.Serial Garbage Collector
 	
 50. Is java pass by value and pass by reference, What is Java, value or refernce?
 51. Difference in aggregation, composition and cohesion? Try to Create a proble for each and understand?
+52. What is difference in between static block, init block and constructor block?
