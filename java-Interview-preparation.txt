@@ -21,9 +21,9 @@ Ans.   1.Serial Garbage Collector
 	would be 'java -XX:+UseParallelGC -jar Application.java'
 	refer here for details -> https://www.baeldung.com/jvm-garbage-collectors
 	
-5.  JDK, JRE and JVM out of these 3 which is OS(platform) dependent and Independent.
+5.  JDK, JRE and JVM out of these 3 which is OS(platform) dependent and Independent.  -> JVM 
 6.  What is bytecode in java? which cmd command generates the bytecode?
-7.  What is difference in 'javac' and 'java' command?
+7.  What is difference in 'javac' and 'java' command? -> 'javac' is command to run compiler and 'java' command to run bytecode 
 8.  What are the 4 four pillars of OOPs?  -> https://info.keylimeinteractive.com/the-four-pillars-of-object-oriented-programming
 9.  Code Example of Encapsulation ?
      class Example{
@@ -36,16 +36,16 @@ Ans.   1.Serial Garbage Collector
 10. Code Example of Abstraction?
 		Example ex = new Example();
 		abstraction --> ex.getName()
-11. Types of Polymorphism?
-12. What is difference in dynamic method dispatch and method overriding how can it be achieved?
-13. How many methods with same name we can define in a class?
-14. What is method signature ? 
-15. Can we override an overloaded method?
-16. Can we override variables?
-17. Does java support operator overloading?
-18. Is access modifier and  return type is part of method signature?
-19. Can we change access modifier and  return type in method overloding?
-20. Can we change access modifier and  return type in method overriding? If yes then what are the rules?
+11. Types of Polymorphism? -> method overloading and method overriding
+12. What is difference in dynamic method dispatch and method overriding how can it be achieved? -> overiding is more on the side of implementtaion where as overriding is about execution.
+13. How many methods with same name we can define in a class? -> any number of
+14. What is method signature ? -> method name and its arguments are known as method signature.
+15. Can we override an overloaded method?-> yes
+16. Can we override variables? -> No
+17. Does java support operator overloading? -> yes internally in string concatenntion, not externally like developers cannot do
+18. Is access modifier and  return type is part of method signature? -> No
+19. Can we change access modifier and  return type in method overloding? -> yes , conditionally
+20. Can we change access modifier and  return type in method overriding? If yes then what are the rules? -> we can narrow the access modifier and return type of overridden method but not expand
 21. What are the access modifiers in java and how they can be applied on method, variables and classes?
 22. Can we have private or protected class in Java?
 23. How many Java classes we can define in Single java file?
