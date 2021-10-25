@@ -16,7 +16,7 @@ Eventually, some objects will no longer be needed. The garbage collector finds t
 4. Any 3 types of Garbage Collection and How to set it?
 Ans.   1.Serial Garbage Collector
        2.Parallel Garbage Collector
-	   3. CMS Garbage Collector
+       3. CMS Garbage Collector
 	We can set it by running it through command prompt by this commnd java '-XX:+<name of GC> -jar Application.java' like for parllel command 
 	would be 'java -XX:+UseParallelGC -jar Application.java'
 	refer here for details -> https://www.baeldung.com/jvm-garbage-collectors
